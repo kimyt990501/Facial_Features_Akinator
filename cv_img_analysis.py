@@ -14,10 +14,9 @@ EYES = list(range(36, 48))
 
 
 #-- 데이터 파일과 이미지 파일 경로
-predictor_file = 'shape_predictor_68_face_landmarks.dat' #-- 자신의 개발 환경에 맞게 변경할 것
-#image_file = 'data/samsung/19820715.png'
+predictor_file = 'Facial_Features_Akinator\\shape_predictor_68_face_landmarks.dat'
 
-image = 'data/samsung/19850818.png'
+image = 'Facial_Features_Akinator\\data\\samsung\\19820715.png'
 
 detector = dlib.get_frontal_face_detector()
 
