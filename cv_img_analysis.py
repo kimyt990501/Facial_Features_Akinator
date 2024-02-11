@@ -19,7 +19,7 @@ list = []
 
 # 데이터 파일과 이미지 파일 경로
 predictor_file = 'C:\\Users\\user\\Desktop\\github_repo\\Facial_Features_Akinator\\shape_predictor_68_face_landmarks.dat'
-os.chdir('./data/samsung')
+os.chdir('Facial_Features_Akinator\\data\\samsung')
 
 file_names = os.listdir()
 
