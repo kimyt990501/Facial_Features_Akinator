@@ -1,3 +1,4 @@
+#%%
 from bs4 import BeautifulSoup
 import pandas as pd
 from selenium import webdriver
@@ -68,3 +69,4 @@ df = pd.DataFrame(list)
 df.columns = ['name', 'birth', 'position', 'height']
 df.to_csv('data/player_info.csv', encoding='euc-kr')
 '''
+# %%
