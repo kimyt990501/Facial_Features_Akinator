@@ -23,6 +23,7 @@ os.chdir('./data/samsung')
 
 file_names = os.listdir()
 
+# 얼굴 특징값 식별
 for filename in file_names:
     
     birth_num = os.path.splitext(filename)[0]
