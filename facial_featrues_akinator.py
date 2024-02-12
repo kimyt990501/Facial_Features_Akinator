@@ -57,10 +57,11 @@ answers_so_far = []
 
 
 def calculate_person_probability(person, questions_so_far, answers_so_far):
-    # Prior
+    
+    # 사전 확률 (Prior)
     P_person = 1 / len(persons)
 
-    # Likelihood
+    # 가능도 (Likelihood)
     P_answers_given_person = 1
     P_answers_given_not_person = 1
     for question, answer in zip(questions_so_far, answers_so_far):
@@ -72,11 +73,11 @@ def calculate_person_probability(person, questions_so_far, answers_so_far):
                                           if not_person['name'] != person['name']])
         P_answers_given_not_person *= max(P_answer_not_person, 0.01)
 
-    # Evidence
+    # 증거 (Evidence)
     P_answers = P_person * P_answers_given_person + \
         (1 - P_person) * P_answers_given_not_person
 
-    # Bayes Theorem
+    # 베이즈 정리 (Bayes Theorem)
     P_person_given_answers = (
         P_answers_given_person * P_person) / P_answers
 
