@@ -47,7 +47,7 @@
 - 이렇게 총 5가지 선택지가 있다
 - 질문을 다 끝낸 프로그램은 사용자가 입력한 답을 토대로 사용자가 생각하는 인물이 누구인지 출력하며 프로그램을 종료한다
 - 프로그램 예시화면은 아래와 같다
-![t](https://github.com/kimyt990501/Facial_Features_Akinator/assets/50610894/d380b9b1-d81d-418a-aae9-5b9a40deb44f)
+- ![t](https://github.com/kimyt990501/Facial_Features_Akinator/assets/50610894/d380b9b1-d81d-418a-aae9-5b9a40deb44f)
 
 ## 아쉬운 점
 - 얼굴 특징이 명확한 인물은 정확도가 높지만 그렇지 않은 인물들은 정확도가 낮은 편이다
