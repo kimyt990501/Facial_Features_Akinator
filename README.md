@@ -1,7 +1,7 @@
 # 얼굴 특징 아키네이터
 인물의 얼굴 특징 및 기타 특징 데이터를 사용하여 누구인지 맞추는 프로그램
 - 베이즈 정리 기반 분류기를 적용시킨 아키네이터
-- Bayes Theorem Based Akinator with Python
+- Bayesian theorem-based Akinator with Python
 
 ## 파일 명
 - data_crawling.py (필요한 데이터 크롤링)
